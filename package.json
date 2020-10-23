@@ -1,0 +1,27 @@
+{
+  "name": "insomnia-plugin-cookie-auth-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "private": true,
+  "insomnia": {
+    "name": "token-retriever",
+    "description": ""
+  },
+  "keywords": [
+    "insomnia"
+  ],
+  "author": "Justin Pfifer",
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "^0.4.19"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3",
+    "@types/node": "^14.0.13",
+    "prettier": "^2.1.2"
+  }
+}
