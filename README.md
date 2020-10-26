@@ -9,12 +9,16 @@ This isn't published on NPM, so it needs to be manually installed.
 
 1. Clone the repository to the Insomnia plugins folder  
   e.g. `cd <insomnia plugins folder>; git clone <url>`
-2. Build it  
-   `(npm | yarn) build`  
-   Should produce: `index.js`
-3. Open Insomnia or tell it to reload plugins
-4. There should be a new template tag called `Cookie Auth Token`
-5. Provided the necessary configuration
+2. Install the dependencies
+   * npm: `npm install`
+   * yarn: `yarn install`   
+3. Build it  
+   * npm: `npm run-script build`
+   * yarn: `yarn build`  
+   This should produce: `index.js`
+4. Open Insomnia or tell it to reload plugins
+5. There should be a new template tag called `Cookie Auth Token`
+6. Provided the necessary configuration
    * Request: This is the which request the plugin should make if the token or cookie has expired
    * Cookie Domain: This is the domain name that the cookie that set the cookie.  
      This is required as it's possible to have multiple cookies named the same.
