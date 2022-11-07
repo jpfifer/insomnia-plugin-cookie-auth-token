@@ -11,6 +11,14 @@
     "displayName": "Cookie Auth Token Retriever",
     "description": "Automatically retrieves auth tokens from cookies allowing their use in requests. Will automatically refresh tokens when necessary"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpfifer/insomnia-plugin-cookie-auth-token.git"
+  },
+  "homepage": "https://github.com/jpfifer/insomnia-plugin-cookie-auth-token",
+  "bugs": {
+    "url": "https://github.com/jpfifer/insomnia-plugin-cookie-auth-token/issues"
+  },
   "keywords": [
     "insomnia"
   ],
