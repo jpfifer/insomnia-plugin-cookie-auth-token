@@ -1,15 +1,15 @@
 {
-  "name": "insomnia-plugin-cookie-auth-token",
+  "name": "insomnia-plugin-jwt-cookie-auth-token",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "private": true,
   "insomnia": {
-    "name": "token-retriever",
-    "description": ""
+    "name": "jwt-cookie-auth-token",
+    "displayName": "Cookie Auth Token Retriever",
+    "description": "Automatically retrieves auth tokens from cookies allowing their use in requests. Will automatically refresh tokens when necessary"
   },
   "keywords": [
     "insomnia"
