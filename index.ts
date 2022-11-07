@@ -44,7 +44,7 @@ export const templateTags: Insomnia.TemplateTag[] = [
   {
     name: 'CookieAuthToken',
     displayName: 'Cookie Auth Token',
-    description: 'Retrieve an auth token from the cookie of another request',
+    description: `Retrieve an auth token from the cookie of another request. This doesn't handle switching environments very well so be careful with that.`,
     args: [
       {
         displayName: 'Request',
